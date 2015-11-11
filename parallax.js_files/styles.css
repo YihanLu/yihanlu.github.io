@@ -340,20 +340,6 @@ footer {
   right: 0;
   left: 0;
 }
-footer .fb-like {
-  display: inline-block;
-  position: absolute;
-  margin-left: 12px;
-  bottom: 48px;
-  right: 22px;
-}
-footer .twitter-share-button {
-  display: inline-block;
-  position: absolute;
-  margin-left: 12px;
-  bottom: 20px;
-  right: 10px;
-}
 
 .accelerate {
   -webkit-transform: translate3d(0,0,0);
@@ -2654,71 +2640,4 @@ html.touch .toggle.tap .x, html.touch .toggle.tap .y {
 html.touch .links a.tap {
   background-color: #FF3D00;
   color: white;
-}
-
-#awwwards {
-  position: absolute;
-  z-index: 9999;
-  top: 40px;
-  left: 0;
-}
-#awwwards a {
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  text-indent: -999em;
-  overflow: hidden;
-  display: block;
-  height: 105px;
-  width: 70px;
-}
-#awwwards.left.black a {
-  background-image: url(../../graphics/awwwards_sotd_black_left.png);
-}
-#awwwards.right.black a {
-  background-image: url(../../graphics/awwwards_sotd_black_right.png);
-}
-#awwwards.left.white a {
-  background-image: url(../../graphics/awwwards_sotd_white_left.png);
-}
-#awwwards.right.white a {
-  background-image: url(../../graphics/awwwards_sotd_white_right.png);
-}
-#awwwards.left.green a {
-  background-image: url(../../graphics/awwwards_sotd_green_left.png);
-}
-#awwwards.right.green a {
-  background-image: url(../../graphics/awwwards_sotd_green_right.png);
-}
-
-@media (max-width: 767px) {
-  #awwwards {
-    display: none;
-  }
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx) {
-  #awwwards a {
-    -webkit-background-size: 70px 105px;
-    -moz-background-size: 70px 105px;
-    -ie-background-size: 70px 105px;
-    -o-background-size: 70px 105px;
-    background-size: 70px 105px;
-  }
-  #awwwards a.left.black a {
-    background-image: url(../../graphics/awwwards_sotd_black_left2x.png);
-  }
-  #awwwards a.right.black a {
-    background-image: url(../../graphics/awwwards_sotd_black_right2x.png);
-  }
-  #awwwards a.left.white a {
-    background-image: url(../../graphics/awwwards_sotd_white_left2x.png);
-  }
-  #awwwards a.right.white a {
-    background-image: url(../../graphics/awwwards_sotd_white_right2x.png);
-  }
-  #awwwards a.left.green a {
-    background-image: url(../../graphics/awwwards_sotd_green_left2x.png);
-  }
-  #awwwards a.right.green a {
-    background-image: url(../../graphics/awwwards_sotd_green_right2x.png);
-  }
 }

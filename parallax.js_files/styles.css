@@ -242,13 +242,13 @@ table {
 
 ::selection {
   text-shadow: none;
-  background: black;
+  background: #05357a;
   color: white;
 }
 
 ::-moz-selection {
   text-shadow: none;
-  background: black;
+  background: #05357a;
   color: white;
 }
 
@@ -261,7 +261,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   line-height: 1.4em;
-  background-color: black;
+  background-color: #05357a;
   text-align: center;
   color: white;
 }
@@ -783,7 +783,7 @@ footer {
 }
 
 .background {
-  background: url(../images/background.jpg) no-repeat 50% 100%;
+  background: url(../images/background.png) no-repeat 50% 100%;
   bottom: 96px;
   background-size: cover;
   position: absolute;
@@ -817,7 +817,7 @@ footer {
   left: -100%;
 }
 .wave:after {
-  background-color: #0045a9;
+  background-color: #05357a;
   position: absolute;
   display: block;
   content: "";

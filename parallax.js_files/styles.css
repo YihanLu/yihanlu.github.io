@@ -286,7 +286,7 @@ p {
 
 em {
   font-style: normal;
-  color: #FF3D00;
+  color: #d92400;
 }
 
 img {
@@ -303,7 +303,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #FF3D00;
+  color: #d92400;
 }
 
 button {
@@ -518,7 +518,7 @@ footer {
 }
 .about .panel h1 {
   font-weight: 100;
-  color: #FF3D00;
+  color: #d92400;
 }
 .about .panel h1 em {
   color: #1d1f27;
@@ -2611,14 +2611,14 @@ html.mouse a:hover {
   color: #ff755a;
 }
 html.mouse button:hover {
-  background-color: #FF3D00;
+  background-color: #d92400;
   color: white;
 }
 html.mouse .toggle:hover .x, html.mouse .toggle:hover .y {
   background-color: white;
 }
 html.mouse .links a:hover {
-  background-color: #FF3D00;
+  background-color: #d92400;
   color: white;
 }
 
@@ -2631,13 +2631,13 @@ html.touch a.tap {
   color: #ff755a;
 }
 html.touch button.tap {
-  background-color: #FF3D00;
+  background-color: #d92400;
   color: white;
 }
 html.touch .toggle.tap .x, html.touch .toggle.tap .y {
   background-color: white;
 }
 html.touch .links a.tap {
-  background-color: #FF3D00;
+  background-color: #d92400;
   color: white;
 }

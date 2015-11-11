@@ -803,7 +803,7 @@ footer {
   background-size: 128px 224px;
   height: 224px;
   width: 128px;
-  background-image: url(../images/lighthouse.png);
+  background-image: url(../images/boat.png);
   background-repeat: no-repeat;
   bottom: 64px;
   position: absolute;
@@ -817,7 +817,7 @@ footer {
   left: -100%;
 }
 .wave:after {
-  background-color: black;
+  background-color: #0045a9;
   position: absolute;
   display: block;
   content: "";

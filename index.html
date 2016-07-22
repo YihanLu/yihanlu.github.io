@@ -1,213 +1,562 @@
 <!DOCTYPE html>
-<!-- saved from url=(0039)http://matthew.wagerfield.com/parallax/ -->
-<html class="mouse"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
 
-	<meta charset="utf-8">
+<head>
 
-	<title>Jacky Lu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+    <title>Jacky Lu</title>
 
-	<!-- Behavioral Meta Data -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="./parallax.js_files/styles.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top" class="index">
 
-	<div id="container" class="wrapper">
-		<ul id="scene" class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" style="width: 1037px; height: 696px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;" data-mode="cursor">
-			<li class="layer" data-depth="0.00" style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></li>
-			<li class="layer" data-depth="0.10" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-8.875px, 5.43px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="background"></div></li>
-			<li class="layer" data-depth="0.10" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-8.875px, 5.43px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="light orange b phase-4"></div></li>
-			<li class="layer" data-depth="0.10" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-8.875px, 5.43px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="light purple c phase-5"></div></li>
-			<li class="layer" data-depth="0.10" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-8.875px, 5.43px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="light orange d phase-3"></div></li>
-			<li class="layer" data-depth="0.15" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-13.3125px, 8.145px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-				<ul class="rope depth-10">
-					<li><img src="./parallax.js_files/rope.png" alt="Rope"></li>
-					<li class="hanger position-2">
-						<div class="board cloud-2 swing-1"></div>
-					</li>
-					<li class="hanger position-4">
-						<div class="board cloud-1 swing-3"></div>
-					</li>
-					<li class="hanger position-8">
-						<div class="board birds swing-5"></div>
-					</li>
-				</ul>
-			</li>
-			<li class="layer" data-depth="0.30" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-26.625px, 16.29px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-				<ul class="rope depth-30">
-					<li><img src="./parallax.js_files/rope.png" alt="Rope"></li>
-					<li class="hanger position-1">
-						<div class="board cloud-1 swing-3"></div>
-					</li>
-					<li class="hanger position-5">
-						<div class="board cloud-4 swing-1"></div>
-					</li>
-				</ul>
-			</li>
-			<li class="layer" data-depth="0.30" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-26.625px, 16.29px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave paint depth-30"></div></li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    amelioristic
+                </a>
+            </div>
 
-			<li class="layer" data-depth="0.40" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-35.5px, 21.72px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave plain depth-40"></div></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Interests</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-			<li class="layer" data-depth="0.40" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-17.75px, 10.86px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><h1 class="title">Jacky <em>Lu</em></h1></li>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hello, I'm Jacky!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/warm.jacket" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/amelioristic/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jackyyihanlu" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+JackyLuYihan" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">&nbsp Google+</span></a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </header>
 
-			<li class="layer" data-depth="0.50" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-44.375px, 27.15px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave paint depth-50"></div></li>
+    <!-- Services Section  -->
+    <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">University of Waterloo Computer Engineering 2017</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-music fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">At Home</h4>
+                    <p class="text-muted">Music is my passion, from enjoying relaxing tunes to singing in the shower. Wherever home is, music will always be present. If you ask politely, I'd love the chance to sing for you.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">At Work</h4>
+                    <p class="text-muted">Teamwork is something I exce Fast paced environments are my comfort zone and I take pride in my level of craftsmanship.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-map-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">On The Go</h4>
+                    <p class="text-muted">Friends would describe me as optimistic and compassionate with an ever-present smile. I love to travel and burst with happiness in the presence of food.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<li class="layer" data-depth="0.55" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-53.25px, 32.58px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="lighthouse depth-55"></div></li>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <h3 class="section-subheading text-muted">Consumer-focused techie with a passion for visual design.<br>
+                        Mobile is my domain, with heavy focus on iOS.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://de554573393350dca2c1348054f2457fa8c6ecd2-www.googledrive.com/host/0B7aDzKM84v49VlNpNEVuMlZEd0U" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">AirBNB</h4>
+                                    <h4 class="subheading">September 2016 - Present</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Joining the mobile iOS team at AirBNB excites me to no end. As I enjoy my time here, I will continue to grow and develop my abilities in iOS and further extend my knowledge into the world of React Native.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://276740b9227f58afb8605f326f7604cdad2475e8-www.googledrive.com/host/0B7aDzKM84v49SmNSTXdkLVZ5OXM" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">LinkedIn</h4>
+                                    <h4 class="subheading">January 2016 - April 2016</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Working on the LinkedIn iOS application, I ramped up quickly and started shipping high visibility features within the first 2 weeks, including the share extension and bringing threaded comments to the feed. I also enjoyed organizing and participating in off-site events to promote team bonding and positive work environments.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://3e4b72ec9dbe66226232aa39aa95a4b999c7013a-www.googledrive.com/host/0B7aDzKM84v49R3ZCYnRrQmJTR0U" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Google</h4>
+                                    <h4 class="subheading">May 2015 - August 2015</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">During my second internship at Google, I worked on a team that operated in stealth mode, building the iOS application from ground up. Being one of the first members on the iOS team allowed me to take on full responsibility of the product and assume seniority in aiding members that would later join.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://2c36e9ab879c759f6c3331c510f9aa17a383d90c-www.googledrive.com/host/0B7aDzKM84v49TW5YX1ltNEUxUXM" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Google</h4>
+                                    <h4 class="subheading">September 2014 - December 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">My time at Google allowed me to thoroughly understand craftsmanship. I worked alongside talented engineers on an internal tool that helped HR automate the organization of employee milestones and collect feedback.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://642718bb74e2f404507fd765a60fcca5b87f1bfa-www.googledrive.com/host/0B7aDzKM84v49cHJEV2E1M2Q5RDg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">SAP</h4>
+                                    <h4 class="subheading">Jan 2014 - April 2014</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Full Stack web development working on enterprise web solutions.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="https://8a8c2042468755070713553794ec5d462c27e778-www.googledrive.com/host/0B7aDzKM84v49dzQwY3pJX2RLdTg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Osellus</h4>
+                                    <h4 class="subheading">May 2013 - August 2013</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">My first dive into iOS development, and my first Outstanding evaluation.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4><br>Start
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Interests</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<li class="layer" data-depth="0.60" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-53.25px, 32.58px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-				<ul class="rope depth-60">
-					<li><img src="./parallax.js_files/rope.png" alt="Rope"></li>
-					<li class="hanger position-3">
-						<div class="board birds swing-5"></div>
-					</li>
-					<li class="hanger position-6">
-						<div class="board cloud-2 swing-2"></div>
-					</li>
-					<li class="hanger position-8">
-						<div class="board cloud-3 swing-4"></div>
-					</li>
-				</ul>
-			</li>
-			<li class="layer" data-depth="0.60" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-53.25px, 32.58px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave plain depth-60"></div></li>
-			<li class="layer" data-depth="0.80" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-71px, 43.44px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave plain depth-80"></div></li>
-			<li class="layer" data-depth="1.00" style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-88.75px, 54.3px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><div class="wave paint depth-100"></div></li>
-		</ul>
-		<section id="about" class="wrapper about hide accelerate">
-			<div class="cell accelerate">
-				<div class="cables center accelerate">
-					<div class="panel accelerate">
-						<header>
-							<h1>About <em>Me</em></h1>
-						</header>
-						<p><em>Hi I'm Jacky,</em> Waterloo educated Computer Engineering student, two time <strong>ex-Googler</strong>, current <strong>LinkedIntern</strong>, passionate about mobile <strong>iOS</strong> development.</p>
-						<p>Connect with me on LinkedIn!</p>
-						<p>Friend me on Facebook.</p>
-						<p>Sometimes I do photo things on Instagram.</p>
-						<p>Add me to your circles on Google+.<br><br>
-						<p>
-						<ul class="links">
-							<li><a class="leftButton" target="_blank" href="https://ca.linkedin.com/in/jackyyihanlu">LinkedIn</a></li>
-							<li><a class="rightButton" target="_blank" href="https://www.facebook.com/jacky.y.lu.9">Facebook</a></li>
-							<li><a class="leftButton" target="_blank" href="https://www.instagram.com/amelioristic/">Instagram</a></li>
-							<li><a class="rightButton" target="_blank" href="https://plus.google.com/u/0/+JackyLuYihan/posts">Google+</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<button id="toggle" class="toggle i">
-			<div class="cross">
-				<div class="x"></div>
-				<div class="y"></div>
-			</div>
-		</button>
-		<div id="prompt" class="wrapper prompt accelerate hide">
-			<div class="cell accelerate">
-				<div class="panel center unselectable accelerate">
-					<button id="dismiss" class="dismiss">
-						<div class="cross">
-							<div class="x"></div>
-							<div class="y"></div>
-						</div>
-					</button>
-					<img src="./images/android.gif">
-					<h2>Welcome!</h2>
-					<p>Try viewing this website on mobile.</p>
-					<p>Tilting is fun too!</p>
-				</div>
-			</div>	
-		</div>
-		<footer>
-		</footer>
-	</div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Jacky Lu 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/warm.jacket" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/amelioristic/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/jackyyihanlu" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://plus.google.com/+JackyLuYihan" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">amelioristic.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-	<!-- Scripts -->
-	<script src="./parallax.js_files/libraries.min.js"></script>
-	<script src="./parallax.js_files/jquery.parallax.js"></script>
-	<script>
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-	// jQuery Selections
-	var $html = $('html'),
-			$container = $('#container'),
-			$prompt = $('#prompt'),
-			$toggle = $('#toggle'),
-			$about = $('#about'),
-			$scene = $('#scene');
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Hide browser menu.
-	(function() {
-		setTimeout(function(){window.scrollTo(0,0);},0);
-	})();
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Heading</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Setup FastClick.
-	FastClick.attach(document.body);
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Add touch functionality.
-	if (Hammer.HAS_TOUCHEVENTS) {
-		$container.hammer({drag_lock_to_axis: true});
-		_.tap($html, 'a,button,[data-tap]');
-	}
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Add touch or mouse class to html element.
-	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Resize handler.
-	(resize = function() {
-		$scene[0].style.width = window.innerWidth + 'px';
-		$scene[0].style.height = window.innerHeight + 'px';
-		if (!$prompt.hasClass('hide')) {
-			if (window.innerWidth < 600) {
-				$toggle.addClass('hide');
-			} else {
-				$toggle.removeClass('hide');
-			}
-		}
-	})();
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	// Attach window listeners.
-	window.onresize = _.debounce(resize, 200);
-	window.onscroll = _.debounce(resize, 200);
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-	function showDetails() {
-		$about.removeClass('hide');
-		$toggle.removeClass('i');
-	}
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-	function hideDetails() {
-		$about.addClass('hide');
-		$toggle.addClass('i');
-	}
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-	// Listen for toggle click event.
-	$toggle.on('click', function(event) {
-		$toggle.hasClass('i') ? showDetails() : hideDetails();
-	});
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
 
-	// Pretty simple huh?
-	$scene.parallax();
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
 
-	// Check for orientation support.
-	setTimeout(function() {
-		if ($scene.data('mode') === 'cursor') {
-			$prompt.removeClass('hide');
-			if (window.innerWidth < 600) $toggle.addClass('hide');
-			$prompt.on('click', function(event) {
-				$prompt.addClass('hide');
-				if (window.innerWidth < 600) {
-					setTimeout(function() {
-						$toggle.removeClass('hide');
-					},1200);
-				}
-			});
-		}
-	},1000);
+    <!-- Navbar JavaScript -->
+    <script src="js/grayscale.min.js"></script>
 
-	</script>
+</body>
 
-</body></html>
+</html>

@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 header {
-  background-image: url('https://98d3b7613d9f84e07c63e18482d410140dfd8057-www.googledrive.com/host/0B7aDzKM84v49NTdMVUNaVlhmTVk');
+  background-image: url('https://98d3b7613d9f84e07c63e18482d410140dfd8057-www.googledrive.com/host/0B7aDzKM84v49NTdMVUNaVlhmTVk'), url('img/backup/Background.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
